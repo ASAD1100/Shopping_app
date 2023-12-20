@@ -1,6 +1,6 @@
 .productdisplay{
     display: flex;
-    margin: 0px 160px;
+    margin: 0px ;
 
 }
 .productdisplay-left{
@@ -24,16 +24,19 @@
     height: 700px;
 }
 
-    .productdisplay-right{
-    margin:  0px 70px;
+.productdisplay-right{
     display: flex;
     flex-direction: column;
+    gap: 16px;
+    margin-left: 50px;
+    
+
 }
 
 .productdisplay-right h1{
     color: #3d3d3d;
     font-size: 40px;
-    font-weight: 700;
+    font-weight: 500;
 
 }
 
@@ -95,11 +98,20 @@
     border: none;
     outline: none;
     cursor: pointer;
+    border-radius: 50px;
+    
 }
+.productdisplay-right button:hover{
+    background-color: #ff4141;
+    scale: 1.07;
+}
+
+
 
 .productdisplay-right-category{
     margin-top: 10px;
+
 }
 .productdisplay-right-category span{
-    
+    font-weight: 600;
 }
